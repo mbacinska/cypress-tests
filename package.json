@@ -1,10 +1,10 @@
 {
-  "name": "cypress",
+  "name": "cypress-tests",
   "version": "1.0.0",
   "description": "UI tests",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^3.4.1"
+    "cypress": "^3.8.2"
   },
   "devDependencies": {
     "mocha": "^6.2.2"
