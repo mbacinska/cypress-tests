@@ -22,6 +22,12 @@ Cypress.Commands.add("selectProduct", (productName) => {
     })
 
 })
+
+Cypress.Commands.add("login",(name, password)=>{
+    cy.get('#user_login').type(name)
+    cy.get('#user_password').type(password)
+    cy.get('.btn.btn-primary').click()
+})
 // -- This is a child command --
 // Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })
 //

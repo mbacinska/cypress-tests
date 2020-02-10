@@ -1,4 +1,6 @@
 {
-    "defaultCommandTimeout":  80000
-    
+  "defaultCommandTimeout": 80000,
+  "reporter": "mochawesome",
+  "projectId": "d88b7d",
+  "baseUrl" : "http://example.com/"
 }
