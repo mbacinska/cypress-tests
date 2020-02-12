@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('Login function test', function () {
+describe('Unsuccessful login function test', function () {
 
 
     before(function () {
