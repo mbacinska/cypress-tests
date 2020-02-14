@@ -4,7 +4,7 @@
   "description": "UI tests",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^3.8.2"
+    "cypress": "^3.8.3"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
