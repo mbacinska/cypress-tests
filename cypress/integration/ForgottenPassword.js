@@ -26,7 +26,7 @@ it('should check a message', () => {
     cy.get('.offset3.span6').then(function (element) {
 
     const elemText = element.text()
-    expect(elemText.includes('Your password will be sent to the following email:')).to.be.true
+    expect(elemText.includes('Your password will be sent to the following email: monika.wacinska@onet.pl')).to.be.true
 
 
 })

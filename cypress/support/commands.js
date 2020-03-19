@@ -28,6 +28,14 @@ Cypress.Commands.add("login",(name, password)=>{
     cy.get('#user_password').type(password)
     cy.get('.btn.btn-primary').click()
 })
+
+
+Cypress.Commands.add("loginToBank",(username,password)=>{
+    cy.get('#user_login').type(username)
+    cy.get('#user_password').type(password)
+    cy.get('#user_remember_me').check()
+    cy.get('input[value = "Sign in"]').click()
+})
 // -- This is a child command --
 // Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })
 //
